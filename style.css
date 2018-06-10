@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.slider {
+    background-image: url(img/slider.png);
+    height: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 63px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 67px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px 13px;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.menu a:hover {
+    color: #212121;
+/*    font-weight: 300;*/
+}
+
+.menu .active-link {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 288px;
+}
+
+.slider-text h4 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    line-height: 15px;
+}
+
+.slider-text h2 {
+    text-transform: uppercase;
+    margin-top: 22px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 46px;
+    text-align: left;
+    letter-spacing: -1.7px;
+}
+
+.slider-text p {
+    margin: 34px 0 25px;
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+.slider-text a {
+    text-transform: uppercase;
+    display: block;
+    border-radius: 22.5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3.5px;
+}
+.slider-dot {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.active-dot {
+    position: absolute;
+}
