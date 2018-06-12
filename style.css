@@ -12,6 +12,7 @@ body {
 .container {
     width: 1366px;
     margin: 0 auto;
+    border: 1px solid #f0f0f0;
 
 }
 
@@ -73,7 +74,8 @@ body {
     line-height: 15px;
 }
 
-.slider-text h2 {
+.slider-text h2,
+.slider5 h2 {
     text-transform: uppercase;
     margin-top: 22px;
     color: #212121;
@@ -84,17 +86,18 @@ body {
     letter-spacing: -1.7px;
 }
 
-.slider-text p {
+.slider-text p,
+.slider5 p {
     margin: 34px 0 25px;
     width: 458px;
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    text-align: left;
 }
 
-.slider-text a {
+.slider-text a,
+.slider5 a {
     text-transform: uppercase;
     display: block;
     border-radius: 22.5px;
@@ -294,4 +297,45 @@ body {
     text-align: center;
     text-decoration: none;
     transform: scaleY(1.0022);
+}
+
+.slider4 h2 {
+    margin-top: 119px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.slider4 {
+    height: 1108px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+
+.product img {
+    margin-bottom: 30px;
+}
+
+.slider5 {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    padding-top: 287px;
+    box-sizing: border-box;
+}
+
+.slider5 h4 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.slider5 .slider-dot {
+    margin-top: 220px;
 }
