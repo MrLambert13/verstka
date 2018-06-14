@@ -358,7 +358,8 @@ body {
     margin-bottom: 15px;
 }
 
-.product img:hover {
+.product img:hover,
+.slider-right img:hover {
     box-shadow: 0 0 10px #ccc;
 }
 
@@ -382,17 +383,79 @@ body {
     height: 810px;
     padding-top: 120px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 
 .slider-left {
     background-image: url(img/product-1-lg.jpg);
     width: 570px;
     height: 570px;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 31px;
+    box-sizing: border-box;
+
 }
+
 .slider-right {
+    overflow: hidden;
+    width: 570px;
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
+
 .slider-right a {
+    /*    без этого стиля ссылки высотой 274 пикселя, не пойму почему*/
+    height: 270px;
 }
-.slider-right img {
+
+.slider-app {
+    background-image: url(img/back-img.jpg);
+    height: 516px;
 }
+
+.slider-app h2,
+.slider-app h4 {
+    text-transform: uppercase;
+}
+
+.slider-app__text {
+    width: 423px;
+    padding-top: 125px;
+    box-sizing: border-box;
+}
+
+.slider-app h4 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.slider-app h2 {
+    color: #212121;
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+.slider-app p {
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+.slider-app img:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+.slider-app a {
+    padding-right: 10px;
+}
+
