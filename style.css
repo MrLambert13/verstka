@@ -37,6 +37,11 @@ body {
     margin-top: 63px;
 }
 
+.logo img:hover {
+    /*    outline: 1px solid #212121;*/
+    box-shadow: 0 0 13px #212121;
+}
+
 .menu {
     list-style-type: none;
     display: flex;
@@ -260,6 +265,16 @@ body {
     margin: auto;
 }
 
+.product-hov a:hover {
+    background-color: #f7f7f7;
+}
+
+.product-hov a:active {
+    position: relative;
+    top: 2px;
+    box-shadow: 0px 0px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+
 .product-hov h4 {
     color: #212121;
     font-size: 21.91px;
@@ -459,3 +474,128 @@ body {
     padding-right: 10px;
 }
 
+
+.slider-footer {
+    height: 384px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text h4 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer-text p {
+    margin-top: 25px;
+
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-to-social {
+    display: flex;
+    width: 129px;
+    justify-content: space-between;
+
+}
+
+.footer-copyright {
+    padding-top: 59px;
+    margin-bottom: 30px;
+}
+
+.footer-copyright p {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.footer-text__contact {
+    width: 221px;
+}
+
+.footer-text__information {
+    width: 422px;
+
+}
+
+.footer-text__information ul {
+    padding-top: 25px;
+    list-style: none;
+    float: left;
+}
+
+
+.footer-text__information h4 + ul {
+    /*    ух нагородил, но до первого ul добрался */
+    padding-right: 80px;
+}
+
+.footer-text__information a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-text__information a:hover {
+    text-decoration: underline;
+}
+
+.footer-text__subscribe {
+    width: 370px;
+}
+
+.footer-text__subscribe form {
+    width: 370px;
+    position: relative;
+}
+
+.footer-text__subscribe input {
+    font-family: Montserrat;
+    border: 1px solid #d9dee1;
+    background-color: #fff;
+    width: 368px;
+    height: 46px;
+    padding: 5px 35px 5px 5px;
+    box-sizing: border-box;
+    margin-top: 25px;
+
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-text__subscribe button {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.mailto {
+    text-decoration: none;
+    color: #212121
+}
+
+.mailto:hover {
+    text-decoration: underline;
+    color: #212121
+}
